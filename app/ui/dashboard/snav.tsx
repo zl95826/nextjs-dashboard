@@ -1,5 +1,6 @@
 import { GlobeAltIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import NavLinks from "./nav-links";
 
 const SNAV = () => {
   return (
@@ -12,6 +13,9 @@ const SNAV = () => {
           <AcmeLogo />
         </div>
       </Link>
+      <div className="flex grow flex-row space-x-2 md:flex-col md:space-x-0 md:space-y-2">
+        <NavLinks />
+      </div>
       <p>test</p>
     </div>
   );
